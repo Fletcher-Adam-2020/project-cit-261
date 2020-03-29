@@ -15,6 +15,8 @@ function loadSavedGame() {
 		displayCards();
 		$("#tries").html(localStorage.tries);
 	}
+	else
+		initGrid();
 }
 
 function displayCards() {
