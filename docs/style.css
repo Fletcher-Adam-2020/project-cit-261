@@ -1,0 +1,41 @@
+.card {
+    width:auto;
+    height:100%;
+}
+
+.card:hover {
+    background-color:grey;
+    cursor:pointer;
+}
+
+.board {
+    background-color: #d10000;
+    border: 3px solid #b00000;
+    padding:15px;
+    text-align:center;
+}
+
+#solved {
+    background-color: #d10000;
+    border: 3px solid #b00000;
+    padding:15px;
+}
+
+.cardholder {
+    height:100%;
+    width:100%;
+    padding:2px;
+}
+
+.remove {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.line {
+    height:140px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Map Editor</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="grid.js"></script>
+	<script>
+
+	</script>
+</head>
+<body onload="loadSavedGame()">
+	<div class="container">
+		<div class="row">
+			<div class="board col-sm-8">
+				<div id="display">
+				</div>
+			</div>
+			<div id="solved" class="col-sm-4">
+				<h3>Tries: <span id="tries">0</span></h3>
+				<button onclick="initGrid()">Reset</button>
+				<button onclick="solve()">Solve</button>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
